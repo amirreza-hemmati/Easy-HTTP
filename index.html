@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Easy Http</title>
+    <link rel="stylesheet" href="../bootstrap.min.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .alert{
+          display: none;
+      }
+
+      .card-body{
+          font-size: 22px;
+          font-weight: 400;
+      }
+
+      form {
+          display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="alert-success py-2">
+      <h1 class="text-center display-3 mb-4">Easy HTTP</h1>
+    </header>
+
+    <main class="container py-4">
+      <div class="alert alert-warning">
+          <form>
+                <input type="number" id="id-card" class="form-control my-3 text-center" placeholder="ID"/>
+                <input type="text" class="form-control text-center my-3" placeholder="Title Form" />
+                <input type="text" class="form-control text-center my-3" placeholder="Body Form" />
+                <input type="submit" value="save" class="btn btn-dark">
+          </form>
+      </div>
+      <br />
+      <div class="row">
+        <div class="card col-lg-5 col-sm-12 mx-auto mb-4">
+          <div class="card-header">
+            <h2 class="text-dark text-center font-weight-bold font-italic">
+              GET Easy HTTP
+            </h2>
+          </div>
+          <div class="card-body"></div>
+          <div class="card-footer text-right">
+            <a href="#" class="btn btn-outline-success btn-block py-2 px-4"
+              >GET Data</a
+            >
+          </div>
+        </div>
+
+        <div class="card col-lg-5 col-sm-12 mx-auto mb-4">
+          <div class="card-header">
+            <h2 class="text-dark text-center font-weight-bold font-italic">
+              SET Easy HTTP
+            </h2>
+          </div>
+          <div class="card-body">
+              
+          </div>
+          <div class="card-footer text-right">
+            <a href="#" class="btn btn-outline-success btn-block py-2 px-4"
+              >SET Data</a
+            >
+          </div>
+        </div>
+
+        <div class="card col-lg-5 col-sm-12 mx-auto mt-4">
+          <div class="card-header">
+            <h2 class="text-dark text-center font-weight-bold font-italic">
+              PUT Easy HTTP
+            </h2>
+          </div>
+          <div class="card-body"></div>
+          <div class="card-footer text-right">
+            <a href="#" class="btn btn-outline-success btn-block py-2 px-4"
+              >PUT Data</a
+            >
+          </div>
+        </div>
+
+        <div class="card col-lg-5 col-sm-12 mx-auto mt-4">
+          <div class="card-header">
+            <h2 class="text-dark text-center font-weight-bold font-italic">
+              DELETE Easy HTTP
+            </h2>
+          </div>
+          <div class="card-body"></div>
+          <div class="card-footer text-right">
+            <a href="#" class="btn btn-outline-success btn-block py-2 px-4"
+              >DELETE Data</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="alert alert-danger text-center display-4">Amirreza Hemmati</footer>
+
+    <script src="form.js"></script>
+    <script src="easyHTTP.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
